@@ -55,30 +55,3 @@ class ViewController: UIViewController {
         return path
     }
 }
-
-/*
- 
- 
- view.layer.shadowOffset = CGSize(width: 10,
-                                  height: 10)
- view.layer.shadowRadius = 5
- view.layer.shadowOpacity = 0.3
- view.layer.shadowPath = CGPath(rect: view.bounds,
-                                transform: nil)
- 
- */
-
-/*
- 
- 
- .shadowPath: Specifying an explicit path usually improves rendering performance
- 
- Without using shadowPath the layer will use the standard shadow path. If you set a
- shadowPath the layer will draw a shadow based on that path.
- 
- Using shadowPath will allow you to have create a shadow with a different shape to the
- layers shape. One can use this to nice effect. Another nice feature of shadowPath is that it will usually
- improve rendering performance.
-
- 
- */
